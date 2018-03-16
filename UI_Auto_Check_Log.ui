@@ -1,0 +1,2595 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Auto_Check_Log</class>
+ <widget class="QWidget" name="Auto_Check_Log">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1102</width>
+    <height>712</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>11</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>log自动检查工具</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>C:/E/电脑文件图标/可爱/86337.ico</normaloff>C:/E/电脑文件图标/可爱/86337.ico</iconset>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>1081</width>
+     <height>691</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <property name="sizeConstraint">
+     <enum>QLayout::SetNoConstraint</enum>
+    </property>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_6">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <widget class="QLabel" name="Lcom">
+            <property name="minimumSize">
+             <size>
+              <width>24</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>24</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>COM</string>
+            </property>
+            <property name="buddy">
+             <cstring>cBcom</cstring>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="cBcom">
+            <property name="minimumSize">
+             <size>
+              <width>67</width>
+              <height>21</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>67</width>
+              <height>21</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <item>
+             <property name="text">
+              <string>COM1</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>COM2</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>COM3</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>COM4</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>COM5</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>COM6</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>COM7</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>COM8</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>COM9</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>COM10</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>COM11</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>COM12</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>COM13</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>COM14</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>COM15</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>COM16</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>COM17</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>COM18</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>COM19</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>COM20</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>COM21</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>COM22</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>COM23</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>COM24</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>COM25</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>COM26</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>COM27</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>COM28</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>COM29</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>COM30</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>COM31</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>COM32</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>COM33</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>COM34</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>COM35</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>COM36</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>COM37</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>COM38</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>COM39</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>COM40</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>COM41</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>COM42</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>COM43</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>COM44</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>COM45</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>COM46</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>COM47</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>COM48</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>COM49</string>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>COM50</string>
+             </property>
+            </item>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeType">
+           <enum>QSizePolicy::MinimumExpanding</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>60</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <item>
+           <widget class="QLabel" name="Lbaud">
+            <property name="minimumSize">
+             <size>
+              <width>45</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>45</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>波特率</string>
+            </property>
+            <property name="buddy">
+             <cstring>lEbaud</cstring>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lEbaud">
+            <property name="minimumSize">
+             <size>
+              <width>91</width>
+              <height>21</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>91</width>
+              <height>21</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_2">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeType">
+           <enum>QSizePolicy::MinimumExpanding</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>60</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_17">
+          <item>
+           <widget class="QLabel" name="Ldevice_model">
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>设备型号</string>
+            </property>
+            <property name="buddy">
+             <cstring>lEdevice_model</cstring>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lEdevice_model">
+            <property name="minimumSize">
+             <size>
+              <width>61</width>
+              <height>21</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>61</width>
+              <height>21</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_5">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeType">
+           <enum>QSizePolicy::MinimumExpanding</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>60</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_4">
+          <item>
+           <widget class="QLabel" name="Lmac">
+            <property name="minimumSize">
+             <size>
+              <width>54</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>54</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Mac地址</string>
+            </property>
+            <property name="buddy">
+             <cstring>lEmac</cstring>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lEmac">
+            <property name="minimumSize">
+             <size>
+              <width>61</width>
+              <height>21</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>61</width>
+              <height>21</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_3">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeType">
+           <enum>QSizePolicy::MinimumExpanding</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>60</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_5">
+          <item>
+           <widget class="QLabel" name="Lonoff">
+            <property name="minimumSize">
+             <size>
+              <width>60</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>60</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>在线状况</string>
+            </property>
+            <property name="buddy">
+             <cstring>ckBonoff</cstring>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="ckBonoff">
+            <property name="minimumSize">
+             <size>
+              <width>53</width>
+              <height>19</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>53</width>
+              <height>19</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="cursor">
+             <cursorShape>PointingHandCursor</cursorShape>
+            </property>
+            <property name="text">
+             <string>在线</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_4">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <property name="sizeType">
+           <enum>QSizePolicy::MinimumExpanding</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>60</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pBbegin">
+          <property name="minimumSize">
+           <size>
+            <width>75</width>
+            <height>23</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>75</width>
+            <height>23</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
+          <property name="text">
+           <string>开始</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <widget class="QLabel" name="Lfile_name">
+          <property name="minimumSize">
+           <size>
+            <width>90</width>
+            <height>15</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>90</width>
+            <height>15</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>文件命名方式</string>
+          </property>
+          <property name="buddy">
+           <cstring>lEfile_name</cstring>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lEfile_name">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>GN-Model-ONline/OFFline-Mac-[%Y-%m-%d_%H-%M-%S].log</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_19">
+          <item>
+           <widget class="QLabel" name="Lfeedid">
+            <property name="minimumSize">
+             <size>
+              <width>54</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>54</width>
+              <height>15</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>Feedid</string>
+            </property>
+            <property name="buddy">
+             <cstring>lEmac</cstring>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lEfeedid">
+            <property name="minimumSize">
+             <size>
+              <width>61</width>
+              <height>21</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>300</width>
+              <height>21</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_20">
+            <item>
+             <widget class="QLabel" name="Lmail">
+              <property name="maximumSize">
+               <size>
+                <width>54</width>
+                <height>15</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>11</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string>邮箱</string>
+              </property>
+              <property name="buddy">
+               <cstring>lEmac</cstring>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="lEmail">
+              <property name="minimumSize">
+               <size>
+                <width>200</width>
+                <height>21</height>
+               </size>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>300</width>
+                <height>21</height>
+               </size>
+              </property>
+              <property name="font">
+               <font>
+                <pointsize>11</pointsize>
+               </font>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_18">
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_6">
+        <property name="spacing">
+         <number>0</number>
+        </property>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_5">
+          <item>
+           <widget class="QLabel" name="label">
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="contextMenuPolicy">
+             <enum>Qt::NoContextMenu</enum>
+            </property>
+            <property name="acceptDrops">
+             <bool>false</bool>
+            </property>
+            <property name="layoutDirection">
+             <enum>Qt::LeftToRight</enum>
+            </property>
+            <property name="locale">
+             <locale language="Chiga" country="Uganda"/>
+            </property>
+            <property name="text">
+             <string>串口打印</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <property name="wordWrap">
+             <bool>false</bool>
+            </property>
+            <property name="buddy">
+             <cstring>tBserial_log</cstring>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QTextBrowser" name="tBserial_log">
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="verticalLayout_4">
+          <item>
+           <widget class="QLabel" name="label_3">
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string>运行日志</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignCenter</set>
+            </property>
+            <property name="buddy">
+             <cstring>textBrowser</cstring>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QTextBrowser" name="textBrowser"/>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <property name="sizeConstraint">
+         <enum>QLayout::SetFixedSize</enum>
+        </property>
+        <item>
+         <widget class="QLabel" name="label_4">
+          <property name="maximumSize">
+           <size>
+            <width>16777215</width>
+            <height>20</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="layoutDirection">
+           <enum>Qt::LeftToRight</enum>
+          </property>
+          <property name="text">
+           <string>统计</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_7">
+          <property name="spacing">
+           <number>3</number>
+          </property>
+          <item>
+           <widget class="QCheckBox" name="ckB_0">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>13</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>13</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lEcheck_flag_0">
+            <property name="minimumSize">
+             <size>
+              <width>161</width>
+              <height>21</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>161</width>
+              <height>21</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lEcheck_num_0">
+            <property name="minimumSize">
+             <size>
+              <width>71</width>
+              <height>21</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>71</width>
+              <height>21</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pBcheck_reset_0">
+            <property name="minimumSize">
+             <size>
+              <width>75</width>
+              <height>23</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>75</width>
+              <height>23</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>清零</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_8">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QCheckBox" name="ckB_1">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>13</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>13</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lEcheck_flag_1">
+            <property name="minimumSize">
+             <size>
+              <width>161</width>
+              <height>21</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>161</width>
+              <height>21</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lEcheck_num_1">
+            <property name="minimumSize">
+             <size>
+              <width>71</width>
+              <height>21</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>71</width>
+              <height>21</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pBcheck_reset_1">
+            <property name="minimumSize">
+             <size>
+              <width>75</width>
+              <height>23</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>75</width>
+              <height>23</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>清零</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_9">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QCheckBox" name="ckB_2">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>13</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>13</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lEcheck_flag_2">
+            <property name="minimumSize">
+             <size>
+              <width>161</width>
+              <height>21</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>161</width>
+              <height>21</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lEcheck_num_2">
+            <property name="minimumSize">
+             <size>
+              <width>71</width>
+              <height>21</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>71</width>
+              <height>21</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pBcheck_reset_2">
+            <property name="minimumSize">
+             <size>
+              <width>75</width>
+              <height>23</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>75</width>
+              <height>23</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>清零</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_10">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QCheckBox" name="ckB_3">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>13</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>13</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lEcheck_flag_3">
+            <property name="minimumSize">
+             <size>
+              <width>161</width>
+              <height>21</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>161</width>
+              <height>21</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lEcheck_num_3">
+            <property name="minimumSize">
+             <size>
+              <width>71</width>
+              <height>21</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>71</width>
+              <height>21</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pBcheck_reset_3">
+            <property name="minimumSize">
+             <size>
+              <width>75</width>
+              <height>23</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>75</width>
+              <height>23</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>清零</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_11">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QCheckBox" name="ckB_4">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>13</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>13</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lEcheck_flag_4">
+            <property name="minimumSize">
+             <size>
+              <width>161</width>
+              <height>21</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>161</width>
+              <height>21</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lEcheck_num_4">
+            <property name="minimumSize">
+             <size>
+              <width>71</width>
+              <height>21</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>71</width>
+              <height>21</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pBcheck_reset_4">
+            <property name="minimumSize">
+             <size>
+              <width>75</width>
+              <height>23</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>75</width>
+              <height>23</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>清零</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_12">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QCheckBox" name="ckB_5">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>13</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>13</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lEcheck_flag_5">
+            <property name="minimumSize">
+             <size>
+              <width>161</width>
+              <height>21</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>161</width>
+              <height>21</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lEcheck_num_5">
+            <property name="minimumSize">
+             <size>
+              <width>71</width>
+              <height>21</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>71</width>
+              <height>21</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pBcheck_reset_5">
+            <property name="minimumSize">
+             <size>
+              <width>75</width>
+              <height>23</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>75</width>
+              <height>23</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>清零</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_13">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QCheckBox" name="ckB_6">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>13</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>13</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lEcheck_flag_6">
+            <property name="minimumSize">
+             <size>
+              <width>161</width>
+              <height>21</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>161</width>
+              <height>21</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lEcheck_num_6">
+            <property name="minimumSize">
+             <size>
+              <width>71</width>
+              <height>21</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>71</width>
+              <height>21</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pBcheck_reset_6">
+            <property name="minimumSize">
+             <size>
+              <width>75</width>
+              <height>23</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>75</width>
+              <height>23</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>清零</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_14">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QCheckBox" name="ckB_7">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>13</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>13</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lEcheck_flag_7">
+            <property name="minimumSize">
+             <size>
+              <width>161</width>
+              <height>21</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>161</width>
+              <height>21</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lEcheck_num_7">
+            <property name="minimumSize">
+             <size>
+              <width>71</width>
+              <height>21</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>71</width>
+              <height>21</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pBcheck_reset_7">
+            <property name="minimumSize">
+             <size>
+              <width>75</width>
+              <height>23</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>75</width>
+              <height>23</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>清零</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_15">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QCheckBox" name="ckB_8">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>13</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>13</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lEcheck_flag_8">
+            <property name="minimumSize">
+             <size>
+              <width>161</width>
+              <height>21</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>161</width>
+              <height>21</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lEcheck_num_8">
+            <property name="minimumSize">
+             <size>
+              <width>71</width>
+              <height>21</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>71</width>
+              <height>21</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pBcheck_reset_8">
+            <property name="minimumSize">
+             <size>
+              <width>75</width>
+              <height>23</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>75</width>
+              <height>23</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>清零</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_16">
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QCheckBox" name="ckB_9">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>13</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>13</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lEcheck_flag_9">
+            <property name="minimumSize">
+             <size>
+              <width>161</width>
+              <height>21</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>161</width>
+              <height>21</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lEcheck_num_9">
+            <property name="minimumSize">
+             <size>
+              <width>71</width>
+              <height>21</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>71</width>
+              <height>21</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <pointsize>11</pointsize>
+             </font>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pBcheck_reset_9">
+            <property name="minimumSize">
+             <size>
+              <width>75</width>
+              <height>23</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>75</width>
+              <height>23</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>清零</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>cBcom</tabstop>
+  <tabstop>lEbaud</tabstop>
+  <tabstop>lEmac</tabstop>
+  <tabstop>ckBonoff</tabstop>
+  <tabstop>pBbegin</tabstop>
+  <tabstop>lEfile_name</tabstop>
+  <tabstop>tBserial_log</tabstop>
+  <tabstop>textBrowser</tabstop>
+ </tabstops>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pBbegin</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>Auto_Check_Log</receiver>
+   <slot>script_start(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1087</x>
+     <y>25</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1347</x>
+     <y>3</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pBcheck_reset_0</sender>
+   <signal>clicked()</signal>
+   <receiver>Auto_Check_Log</receiver>
+   <slot>clear_num_0()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1030</x>
+     <y>138</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1355</x>
+     <y>153</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pBcheck_reset_1</sender>
+   <signal>clicked()</signal>
+   <receiver>Auto_Check_Log</receiver>
+   <slot>clear_num_1()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1030</x>
+     <y>199</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1355</x>
+     <y>217</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pBcheck_reset_2</sender>
+   <signal>clicked()</signal>
+   <receiver>Auto_Check_Log</receiver>
+   <slot>clear_num_2()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1030</x>
+     <y>259</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1355</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pBcheck_reset_3</sender>
+   <signal>clicked()</signal>
+   <receiver>Auto_Check_Log</receiver>
+   <slot>clear_num_3()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1030</x>
+     <y>319</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1355</x>
+     <y>338</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pBcheck_reset_4</sender>
+   <signal>clicked()</signal>
+   <receiver>Auto_Check_Log</receiver>
+   <slot>clear_num_4()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1030</x>
+     <y>379</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1355</x>
+     <y>401</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pBcheck_reset_5</sender>
+   <signal>clicked()</signal>
+   <receiver>Auto_Check_Log</receiver>
+   <slot>clear_num_5()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1030</x>
+     <y>440</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1355</x>
+     <y>457</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pBcheck_reset_6</sender>
+   <signal>clicked()</signal>
+   <receiver>Auto_Check_Log</receiver>
+   <slot>clear_num_6()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1030</x>
+     <y>500</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1355</x>
+     <y>523</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pBcheck_reset_7</sender>
+   <signal>clicked()</signal>
+   <receiver>Auto_Check_Log</receiver>
+   <slot>clear_num_7()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1030</x>
+     <y>560</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1355</x>
+     <y>576</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pBcheck_reset_8</sender>
+   <signal>clicked()</signal>
+   <receiver>Auto_Check_Log</receiver>
+   <slot>clear_num_8()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1030</x>
+     <y>621</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1355</x>
+     <y>641</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pBcheck_reset_9</sender>
+   <signal>clicked()</signal>
+   <receiver>Auto_Check_Log</receiver>
+   <slot>clear_num_9()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1030</x>
+     <y>681</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1355</x>
+     <y>701</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>tBserial_log</sender>
+   <signal>textChanged()</signal>
+   <receiver>Auto_Check_Log</receiver>
+   <slot>record_data()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>470</x>
+     <y>125</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>567</x>
+     <y>7</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lEcheck_flag_0</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>Auto_Check_Log</receiver>
+   <slot>text_change_0()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>745</x>
+     <y>133</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1091</x>
+     <y>119</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lEcheck_flag_1</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>Auto_Check_Log</receiver>
+   <slot>text_change_1()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>754</x>
+     <y>192</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1091</x>
+     <y>185</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lEcheck_flag_2</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>Auto_Check_Log</receiver>
+   <slot>text_change_2()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>737</x>
+     <y>241</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1091</x>
+     <y>239</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lEcheck_flag_3</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>Auto_Check_Log</receiver>
+   <slot>text_change_3()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>732</x>
+     <y>310</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1092</x>
+     <y>303</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lEcheck_flag_4</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>Auto_Check_Log</receiver>
+   <slot>text_change_4()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>766</x>
+     <y>367</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1095</x>
+     <y>361</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lEcheck_flag_5</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>Auto_Check_Log</receiver>
+   <slot>text_change_5()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>717</x>
+     <y>422</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1093</x>
+     <y>424</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lEcheck_flag_6</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>Auto_Check_Log</receiver>
+   <slot>text_change_6()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>725</x>
+     <y>483</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1094</x>
+     <y>488</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lEcheck_flag_7</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>Auto_Check_Log</receiver>
+   <slot>text_change_7()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>724</x>
+     <y>542</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1095</x>
+     <y>545</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lEcheck_flag_8</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>Auto_Check_Log</receiver>
+   <slot>text_change_8()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>733</x>
+     <y>609</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1091</x>
+     <y>602</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lEcheck_flag_9</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>Auto_Check_Log</receiver>
+   <slot>text_change_9()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>714</x>
+     <y>670</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1095</x>
+     <y>666</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lEdevice_model</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>Auto_Check_Log</receiver>
+   <slot>text_change_model()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>511</x>
+     <y>23</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>521</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lEmac</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>Auto_Check_Log</receiver>
+   <slot>text_change_mac()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>702</x>
+     <y>25</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>708</x>
+     <y>3</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lEbaud</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>Auto_Check_Log</receiver>
+   <slot>text_change_baud()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>252</x>
+     <y>22</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>208</x>
+     <y>5</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ckBonoff</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>Auto_Check_Log</receiver>
+   <slot>check_on_off()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>908</x>
+     <y>24</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>550</x>
+     <y>355</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ckB_0</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>Auto_Check_Log</receiver>
+   <slot>focus_log_0()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>602</x>
+     <y>129</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>550</x>
+     <y>355</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ckB_1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>Auto_Check_Log</receiver>
+   <slot>focus_log_1()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>604</x>
+     <y>189</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>550</x>
+     <y>355</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ckB_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>Auto_Check_Log</receiver>
+   <slot>focus_log_2()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>604</x>
+     <y>249</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>550</x>
+     <y>355</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ckB_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>Auto_Check_Log</receiver>
+   <slot>focus_log_3()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>604</x>
+     <y>309</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>550</x>
+     <y>355</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ckB_4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>Auto_Check_Log</receiver>
+   <slot>focus_log_4()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>604</x>
+     <y>369</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>550</x>
+     <y>355</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ckB_5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>Auto_Check_Log</receiver>
+   <slot>focus_log_5()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>604</x>
+     <y>430</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>550</x>
+     <y>355</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ckB_6</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>Auto_Check_Log</receiver>
+   <slot>focus_log_6()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>604</x>
+     <y>490</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>550</x>
+     <y>355</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ckB_7</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>Auto_Check_Log</receiver>
+   <slot>focus_log_7()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>604</x>
+     <y>550</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>550</x>
+     <y>355</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ckB_8</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>Auto_Check_Log</receiver>
+   <slot>focus_log_8()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>604</x>
+     <y>610</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>550</x>
+     <y>355</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>ckB_9</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>Auto_Check_Log</receiver>
+   <slot>focus_log_9()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>604</x>
+     <y>670</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>550</x>
+     <y>355</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>textBrowser</sender>
+   <signal>textChanged()</signal>
+   <receiver>Auto_Check_Log</receiver>
+   <slot>record_log()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>74</x>
+     <y>470</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>7</x>
+     <y>395</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lEmail</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>Auto_Check_Log</receiver>
+   <slot>text_change_mail()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>951</x>
+     <y>53</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1100</x>
+     <y>77</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <signal>signal()</signal>
+  <slot>script_start(bool)</slot>
+  <slot>check_on_off()</slot>
+  <slot>record_data()</slot>
+  <slot>check_cut()</slot>
+  <slot>check_add()</slot>
+  <slot>clear()</slot>
+  <slot>clear_num()</slot>
+  <slot>clear_num_2()</slot>
+  <slot>clear_num_3()</slot>
+  <slot>clear_num_4()</slot>
+  <slot>clear_num_5()</slot>
+  <slot>clear_num_6()</slot>
+  <slot>clear_num_7()</slot>
+  <slot>clear_num_8()</slot>
+  <slot>clear_num_9()</slot>
+  <slot>clear_num_0()</slot>
+  <slot>serial_log()</slot>
+  <slot>record_log()</slot>
+  <slot>text_change_0()</slot>
+  <slot>text_change_1()</slot>
+  <slot>text_change_2()</slot>
+  <slot>text_change_3()</slot>
+  <slot>text_change_4()</slot>
+  <slot>text_change_5()</slot>
+  <slot>text_change_6()</slot>
+  <slot>text_change_7()</slot>
+  <slot>text_change_8()</slot>
+  <slot>text_change_9()</slot>
+  <slot>text_change_baud()</slot>
+  <slot>text_change_model()</slot>
+  <slot>text_change_mac()</slot>
+  <slot>text_change_com()</slot>
+  <slot>focus_log_1()</slot>
+  <slot>focus_log_2()</slot>
+  <slot>focus_log_3()</slot>
+  <slot>focus_log_4()</slot>
+  <slot>focus_log_5()</slot>
+  <slot>focus_log_6()</slot>
+  <slot>focus_log_7()</slot>
+  <slot>focus_log_8()</slot>
+  <slot>focus_log_9()</slot>
+  <slot>focus_log_0()</slot>
+  <slot>text_change_mail()</slot>
+ </slots>
+</ui>
